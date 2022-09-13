@@ -1,0 +1,4 @@
+const bitcoinPrice = Number(prompt('What is bitcoin price today?'));
+const dollarAmount = Number(prompt('How much $ do you have?'));
+const bitcoinBought = `You can buy ${parselFloat(dollarAmount/bitcoinPrice).toFixed(7)} BTC`;
+console.log(bitcoinBought); 
